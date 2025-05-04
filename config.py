@@ -13,9 +13,9 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","its_prime00")
+OWNER_USERNAME = getenv("OWNER_USERNAME","ll_DS_FOUNDER_ll")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME","Firemusiic_bot")
+BOT_USERNAME = getenv("BOT_USERNAME","TG_SONG_BOT")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME")
 # ---------------------------------------------------------
@@ -30,7 +30,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @PURVI_HELP_BOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 7124049910))
+OWNER_ID = int(getenv("OWNER_ID", 8115053977))
 
 
 ## Fill these variables if you're deploying on heroku.
@@ -48,8 +48,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+JX6DIGP9q_dlMDE1")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+JX6DIGP9q_dlMDE1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BOTSUPPORTALL")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/huntermafiya")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
